@@ -21,19 +21,17 @@
 # Version and Variant
 export FOX_VERISON="R12.1"
 export FOX_VARIANT="A14"
-export FOX_BUILD_TYPE="Test 4"
+export FOX_BUILD_TYPE="Test 5"
 
 #OTA
-export OF_DISABLE_OTA_MENU=1
 export FOX_AB_DEVICE=1
 export FOX_VIRTUAL_AB_DEVICE=1
-export TARGET_ARCH=arm
-export TARGET_DEVICE_ALT="Infinix-X6532,X6532"
+export TARGET_DEVICE_ALT="Infinix-X6532,AGo-64"
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 
 export OF_FLASHLIGHT_ENABLE=1
 
-export OF_MAINTAINER="chongkessob"
+export OF_MAINTAINER="Chongkessob"
 
 # OrangeFox Addons
 export FOX_USE_BASH_SHELL=1
