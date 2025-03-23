@@ -1,19 +1,19 @@
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    vbmeta \
-    vbmeta_system \
-    vbmeta_vendor \
-    vbmeta_product \
-    vbmeta_system_ext \
-    dtbo \
     boot \
+    dtbo \
+    lk \
+    odm \
+    odm_dlkm \
+    product \
     system \
     system_ext \
+    vbmeta_system \
+    vbmeta_vendor \
     vendor \
     vendor_boot \
-    vendor_dlkm \
-    product
+    vendor_dlkm
 
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
